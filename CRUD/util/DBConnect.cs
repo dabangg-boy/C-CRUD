@@ -14,7 +14,7 @@ namespace CRUD.util
             private string database;
 
             public DBConnect(string server = "localhost", string user = "root",
-                            string password = "dabangg95", string database = "exam")
+                            string password = "", string database = "db")
             {
                 this.server = server;
                 this.user = user;
