@@ -25,8 +25,8 @@ namespace CRUD.util
             public string get()
             {
                 return "Server=" + this.server + ";Database=" + this.database +
-                       ";Uid=" + this.user + ";Pwd=" + this.password;
-                /* Output: Server=localhost;Database=footballmanager:Uid=root;Pwd= */
+                       ";Uid=" + this.user + ";Pwd=" + this.password + ";SslMode=None";
+                /* Output: Server=localhost;Database=footballmanager:Uid=root;Pwd=;SslMode=None */
             }
         }
     }
